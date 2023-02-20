@@ -1,13 +1,11 @@
-/// @description Insert description here
+/// @description Code for button --> borrowed from game maker tutorials
 // You can write your code in this editor
 
-draw_self();
+draw_self(); //draw sprite of button
 
-draw_set_font(fnt_button);
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
+draw_set_font(fnt_button); // font of button
+draw_set_halign(fa_center); // horizontal alignment
+draw_set_valign(fa_middle); // vertical alignment
 
-draw_text(x, y, button_text);
-
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
+draw_set_color(c_black); // color of text
+draw_text(x, y, button_text); // draw the text for the button
