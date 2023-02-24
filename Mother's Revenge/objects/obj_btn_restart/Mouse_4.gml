@@ -1,4 +1,4 @@
-/// @description play button
+/// @description restart button
 // You can write your code in this editor
 
 
