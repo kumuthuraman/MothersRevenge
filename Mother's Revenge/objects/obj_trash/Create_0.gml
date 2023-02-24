@@ -1,3 +1,3 @@
 // Base movespeed
-hspeed = move_speed
+hspeed = -move_speed
 
