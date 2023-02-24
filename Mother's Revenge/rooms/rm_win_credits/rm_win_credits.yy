@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_win",
+  "name": "rm_win_credits",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -27,9 +27,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_4EECA1FE","path":"rooms/rm_win/rm_win.yy",},
-    {"name":"inst_2772D2A5","path":"rooms/rm_win/rm_win.yy",},
-    {"name":"inst_FDBFC05","path":"rooms/rm_win/rm_win.yy",},
+    {"name":"inst_4EECA1FE","path":"rooms/rm_win_credits/rm_win_credits.yy",},
+    {"name":"inst_2772D2A5","path":"rooms/rm_win_credits/rm_win_credits.yy",},
+    {"name":"inst_FDBFC05","path":"rooms/rm_win_credits/rm_win_credits.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
