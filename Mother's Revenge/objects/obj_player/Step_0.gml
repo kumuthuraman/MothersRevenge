@@ -8,8 +8,9 @@ key_right = keyboard_check(vk_right)
 var _move = key_right - key_left
 
 //Animation for movement
-switch(current_weapon){
+switch(global.currentWeapon){
 	case 1:
+		current_shot = obj_bulletStarter
 		if (_move!= 0) {
 			image_xscale = _move 
 			sprite_index = spr_playerStarterRun
@@ -18,11 +19,39 @@ switch(current_weapon){
 		}
 		break
 	case 2:
+		current_shot = obj_bulletGlacier
 		if (_move!= 0) {
 			image_xscale = _move 
 			sprite_index = spr_playerGlacierRun
 		} else {
 			sprite_index = spr_playerGlacier
+		}
+		break
+	case 3:
+		current_shot = obj_bulletGrenade
+		if (_move!= 0) {
+			image_xscale = _move 
+			sprite_index = spr_playerGrenadeRun
+		} else {
+			sprite_index = spr_playerGrenade
+		}
+		break
+	case 4:
+		current_shot = obj_bulletSolar
+		if (_move!= 0) {
+			image_xscale = _move 
+			sprite_index = spr_playerSolarRun
+		} else {
+			sprite_index = spr_playerSolar
+		}
+		break
+	case 5:
+		current_shot = obj_bulletLightning
+		if (_move!= 0) {
+			image_xscale = _move 
+			sprite_index = spr_playerLightningRun
+		} else {
+			sprite_index = spr_playerLightning
 		}
 		break
 }
@@ -36,13 +65,28 @@ if(keyboard_check_pressed(vk_up) && instance_place(x,y+1,obj_block)){
 }
 
 if(keyboard_check_pressed(ord("1"))){
-	current_weapon = 1
-	current_shot = obj_bullet
+	global.currentWeapon = 1
+	current_shot = obj_bulletStarter
 }
 
 if(keyboard_check_pressed(ord("2"))){
-	current_weapon = 2
+	global.currentWeapon = 2
 	current_shot = obj_bulletGlacier
+}
+
+if(keyboard_check_pressed(ord("3"))){
+	global.currentWeapon = 3
+	current_shot = obj_bulletGrenade
+}
+
+if(keyboard_check_pressed(ord("4"))){
+	global.currentWeapon = 4
+	current_shot = obj_bulletSolar
+}
+
+if(keyboard_check_pressed(ord("5"))){
+	global.currentWeapon = 5
+	current_shot = obj_bulletLightning
 }
 
 // Firing

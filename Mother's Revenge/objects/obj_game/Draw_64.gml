@@ -4,25 +4,26 @@
 //lives
 lives = 1;
 for(var i = 0; i < lives; i++){
-	draw_sprite(spr_lives, 0, (50 + 30 * i), 15);
+	draw_sprite(spr_lives, 0, (30 + 30 * i), 25);
 }
 
 //recycled trash collected, sprite is shown next to the amount of trash collected
-trash = 0;
-draw_sprite(spr_token, 0, 50, 75);
+draw_sprite(spr_coin, 0, 30, 60);
 
-if trash < 10 {
-	draw_text(100, 100, "00" + string(trash));
-} else if trash < 100 {
-	draw_text(100, 100, "0" + string(trash));
+draw_set_font(fnt_mini);
+
+if score < 10 {
+	draw_text(70, 60, "00" + string(score));
+} else if score < 100 {
+	draw_text(70, 60, "0" + string(score));
 } else{
-	draw_text(100, 100, string(trash));
+	draw_text(70, 60, string(score));
 }
 
 //progress bar, based on checkpoints (for now)
-totalCheckpoints = 20;
-checkpoints = 1;
-draw_rectangle(50,980,1880 / totalCheckpoints * checkpoints,1000,false);
+//totalCheckpoints = 20;
+//checkpoints = 1;
+//draw_rectangle(50,980,1880 / totalCheckpoints * checkpoints,1000,false);
 
 
 //time limit
