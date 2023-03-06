@@ -1,2 +1,2 @@
 instance_destroy()
-score += 5
+score += 1
