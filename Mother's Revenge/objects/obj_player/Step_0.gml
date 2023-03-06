@@ -64,6 +64,12 @@ if(keyboard_check_pressed(vk_up) && instance_place(x,y+1,obj_block)){
 		vspeed = -jump_speed
 }
 
+//timer
+if (obj_game.timer == 0) {
+	instance_destroy()
+}
+
+//cheat codes to switch between weapons
 if(keyboard_check_pressed(ord("1"))){
 	global.currentWeapon = 1
 	current_shot = obj_bulletStarter
@@ -120,4 +126,15 @@ if(place_meeting(x,y+vspeed,obj_block)){
 	vspeed = 0
 }
 
+//Make hidden areas disappear and appear
+if(place_meeting(x, y, obj_hidden)) {
+	layer_set_visible("tile_hidden1", false)
+	layer_set_visible("tile_hidden2", false)
+	layer_set_visible("tile_hidden3", false)
+}
+else {
+	layer_set_visible("tile_hidden1", true)
+	layer_set_visible("tile_hidden2", true)
+	layer_set_visible("tile_hidden3", true)
+}
 

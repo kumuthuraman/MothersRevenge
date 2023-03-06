@@ -1,2 +1,2 @@
 instance_destroy()
-score += 1
+score += (1 * global.multiplier)

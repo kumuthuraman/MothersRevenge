@@ -1,4 +1,11 @@
 /// @description player dies
-// You can write your code in this editor
 
 sprite_index = spr_playerDies
+lives -= 1
+
+if (lives == 0) {
+	room_goto(rm_shop)
+}
+else {
+	room_restart()
+}
