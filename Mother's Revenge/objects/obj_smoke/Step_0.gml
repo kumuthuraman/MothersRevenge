@@ -1,6 +1,6 @@
 
 // Speed up if player is on the same y-elevation
-if(y == floor(obj_player.y)) {
+if(instance_exists(obj_player) and y == floor(obj_player.y)) {
 	hspeed = (move_speed * 2) * sign(hspeed)
 }  else {
 	hspeed = move_speed * sign(hspeed)

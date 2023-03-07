@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 //lives
-lives = 1;
 for(var i = 0; i < lives; i++){
 	draw_sprite(spr_lives, 0, (30 + 30 * i), 25);
 }

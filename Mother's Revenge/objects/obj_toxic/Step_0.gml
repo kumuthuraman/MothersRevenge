@@ -1,5 +1,5 @@
 
-if(y == floor(obj_player.y)) {
+if(instance_exists(obj_player) and y == floor(obj_player.y)) {
 	hspeed = 0
 	
 	if(canShoot) {
