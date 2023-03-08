@@ -1,4 +1,4 @@
-/// @description power up timer
+/// @description timer for x2 powerup
 
 powerUpTimer -= 1
 

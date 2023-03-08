@@ -1,11 +1,5 @@
-/// @description Insert description here
+/// @description shield no longer exists
 // You can write your code in this editor
 
-obj_player.powerUpTimer -= 1
-
-if (obj_player.powerUpTimer == 0) {
-	global.shield = false
-}
-else {
-	alarm[0] = 60
-}
+global.shield = false
+instance_destroy()

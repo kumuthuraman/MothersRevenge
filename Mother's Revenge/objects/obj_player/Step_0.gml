@@ -66,15 +66,7 @@ if(keyboard_check_pressed(vk_up) && instance_place(x,y+1,obj_block)){
 
 //timer
 if (obj_game.timer == 0) {
-	global.lives -= 1
-	if (global.lives > 0) {
-		sprite_index = spr_playerDies
-		instance_create_layer(x, y, "Instances", obj_player)
-	}
-	else {
-		sprite_index = spr_playerDies
-		room_goto(rm_shop)
-	}
+	instance_destroy()
 }
 
 //cheat codes to switch between weapons
@@ -144,4 +136,10 @@ else {
 	layer_set_visible("tile_hidden1", true)
 	layer_set_visible("tile_hidden2", true)
 	layer_set_visible("tile_hidden3", true)
+}
+
+//Restarts if player loses all lives
+if(global.lives == 0){
+	instance_destroy();
+	room_goto(rm_shop);
 }
