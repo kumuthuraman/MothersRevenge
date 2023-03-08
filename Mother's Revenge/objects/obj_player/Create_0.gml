@@ -1,6 +1,6 @@
 canShoot = true
 
-if (global.checkpoint == 2) {
+if (global.checkpoint == 2 and global.politicianDefeat == true) {
 	x = 64
 	y = 512
 	view_visible[1] = true
