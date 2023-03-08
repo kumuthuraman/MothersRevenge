@@ -1,1 +1,3 @@
-instance_destroy()
+if (global.shield == false) {
+	instance_destroy()
+}

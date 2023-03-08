@@ -1,2 +1,3 @@
-instance_destroy()
-room_restart()
+if (global.shield == false) {
+	instance_destroy()
+}
