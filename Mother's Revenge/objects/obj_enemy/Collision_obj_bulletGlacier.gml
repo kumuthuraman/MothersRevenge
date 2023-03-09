@@ -11,5 +11,5 @@ if(!isSlowed){
 
 if(hp < 1) {
 	instance_destroy()
-	instance_create_layer(x,y,"instances",obj_token)
+	instance_create_layer(x,y,"instances",deathAnimation)
 }
