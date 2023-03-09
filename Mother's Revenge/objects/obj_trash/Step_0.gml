@@ -18,7 +18,7 @@ if(place_meeting(x+hspeed,y,obj_block)){
 }
 
 //Check to see if at an edge
-if(!place_meeting(x+speed,y+1,obj_block)){
+if(!place_meeting(x+hspeed,y+1,obj_block)){
 	image_xscale = image_xscale*-1
 	hspeed = hspeed * -1
 }
