@@ -1,4 +1,4 @@
-if (object_exists(obj_player)) {
+if (instance_exists(obj_player)) {
 	if(y == floor(obj_player.y)) {
 		hspeed = 0
 	
@@ -32,5 +32,8 @@ if (object_exists(obj_player)) {
 	if(!place_meeting(x+speed,y+1,obj_block)){
 		hspeed = hspeed * -1
 	}
+}
+else {
+	hspeed = 0
 }
 

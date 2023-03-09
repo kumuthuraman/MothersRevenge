@@ -10,7 +10,4 @@ global.solarSniper = false
 global.currentWeapon = 1
 global.multiplier = 1
 global.shield = false
-
-function Script1(){
-	
-}
+global.politicianDefeat = false

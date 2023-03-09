@@ -1,4 +1,4 @@
-if (object_exists(obj_player)) {
+if (instance_exists(obj_player)) {
 	// Speed up if player is on the same y-elevation
 	if(y == floor(obj_player.y)) {
 		hspeed = (move_speed * 1.5) * sign(hspeed)
@@ -18,9 +18,11 @@ if (object_exists(obj_player)) {
 	}
 
 	//Check to see if at an edge
-	if(!place_meeting(x+speed,y+1,obj_block)){
+	if(place_meeting(x+speed,y+1,obj_blockx)){
 		image_xscale = image_xscale*-1
 		hspeed = hspeed * -1
 	}
 }
-
+else {
+	hspeed = 0
+}

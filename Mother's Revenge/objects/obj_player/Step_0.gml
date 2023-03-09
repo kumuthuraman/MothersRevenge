@@ -66,15 +66,7 @@ if(keyboard_check_pressed(vk_up) && instance_place(x,y+1,obj_block)){
 
 //timer
 if (obj_game.timer == 0) {
-	global.lives -= 1
-	if (global.lives > 0) {
-		sprite_index = spr_playerDies
-		instance_create_layer(x, y, "Instances", obj_player)
-	}
-	else {
-		sprite_index = spr_playerDies
-		room_goto(rm_shop)
-	}
+	instance_destroy()
 }
 
 //cheat codes to switch between weapons
