@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bullet_speed","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"objectId":{"name":"obj_bulletStarter","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"value":"10",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bullet_damage","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"objectId":{"name":"obj_bulletStarter","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"value":"2",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cool_down","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"objectId":{"name":"obj_bulletStarter","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"value":"15",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"bullet_damage","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"objectId":{"name":"obj_bulletStarter","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"value":"2.5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cool_down","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"objectId":{"name":"obj_bulletStarter","path":"objects/obj_bulletStarter/obj_bulletStarter.yy",},"value":"45",},
   ],
   "parent": {
     "name": "Bullets",

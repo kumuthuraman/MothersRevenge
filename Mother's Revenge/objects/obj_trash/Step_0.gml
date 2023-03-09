@@ -18,7 +18,7 @@ if (instance_exists(obj_player)) {
 	}
 
 	//Check to see if at an edge
-	if(!place_meeting(x+speed,y+1,obj_block)){
+	if(place_meeting(x+speed,y+1,obj_blockx)){
 		image_xscale = image_xscale*-1
 		hspeed = hspeed * -1
 	}

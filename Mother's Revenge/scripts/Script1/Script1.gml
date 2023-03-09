@@ -11,7 +11,3 @@ global.currentWeapon = 1
 global.multiplier = 1
 global.shield = false
 global.politicianDefeat = false
-
-function Script1(){
-	
-}
