@@ -137,8 +137,3 @@ else {
 	layer_set_visible("tile_hidden2", true)
 	layer_set_visible("tile_hidden3", true)
 }
-
-//Restarts if player loses all lives
-if(global.lives == 0){
-	room_goto(rm_shop);
-}
