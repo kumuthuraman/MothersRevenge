@@ -140,6 +140,5 @@ else {
 
 //Restarts if player loses all lives
 if(global.lives == 0){
-	instance_destroy();
 	room_goto(rm_shop);
 }
