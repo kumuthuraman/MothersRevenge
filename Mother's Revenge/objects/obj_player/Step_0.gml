@@ -94,6 +94,10 @@ if(keyboard_check_pressed(ord("5"))){
 	global.currentWeapon = 5
 	current_shot = obj_bulletLightning
 }
+//cheat codes to enter the win/credit screen
+if(keyboard_check_pressed(ord("0"))){
+	room_goto(rm_win_credits)
+}
 
 // Firing
 if(canShoot && keyboard_check_pressed(ord("Z"))){
