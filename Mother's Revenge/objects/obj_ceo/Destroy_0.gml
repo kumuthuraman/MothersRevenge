@@ -1,5 +1,6 @@
 /// @description ceo dies
 
-sprite_index = spr_ceoDies
+instance_destroy()
 
-room_goto(rm_win_credits)
+instance_create_layer(x, y, "instances", obj_ceo_death)
+

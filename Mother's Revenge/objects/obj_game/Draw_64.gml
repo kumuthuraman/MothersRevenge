@@ -9,7 +9,7 @@ for(var i = 0; i < global.lives; i++){
 //recycled trash collected, sprite is shown next to the amount of trash collected
 draw_sprite(spr_coin, 0, 30, 60);
 
-draw_set_color(c_black)
+draw_set_color(c_white)
 draw_set_font(fnt_mini);
 
 if score < 10 {
