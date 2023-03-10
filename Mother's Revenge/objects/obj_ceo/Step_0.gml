@@ -22,7 +22,7 @@ if (wave == 3) {
 if (wave == 5) {
 	sprite_index = spr_ceoAtacks
 	currentEnemies[0] = instance_create_layer(x + 50, y+16, "instances", obj_toxic)
-	currentEnemies[1] = instance_create_layer(x + 100, y+16, "instances", obj_trash)
+	currentEnemies[1] = instance_create_layer(x + 100, y+16, "instances", obj_toxic)
 	takeDamage = false
 	wave += 1
 }
