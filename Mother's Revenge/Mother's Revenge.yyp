@@ -134,6 +134,7 @@
     {"id":{"name":"obj_bulletLightning","path":"objects/obj_bulletLightning/obj_bulletLightning.yy",},"order":2,},
     {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},"order":12,},
     {"id":{"name":"spr_lives","path":"sprites/spr_lives/spr_lives.yy",},"order":8,},
+    {"id":{"name":"obj_politician_death","path":"objects/obj_politician_death/obj_politician_death.yy",},"order":9,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
     {"id":{"name":"spr_bulletGlacier","path":"sprites/spr_bulletGlacier/spr_bulletGlacier.yy",},"order":1,},
     {"id":{"name":"obj_hidden","path":"objects/obj_hidden/obj_hidden.yy",},"order":19,},
