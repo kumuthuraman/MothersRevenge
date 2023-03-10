@@ -69,6 +69,7 @@ if (obj_game.timer == 0) {
 	instance_destroy()
 }
 
+
 //cheat codes to enter the win/credit screen
 if(keyboard_check_pressed(ord("0"))){
 	room_goto(rm_win_credits)

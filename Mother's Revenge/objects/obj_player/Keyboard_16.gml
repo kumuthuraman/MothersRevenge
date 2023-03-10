@@ -26,7 +26,7 @@ if(keyboard_check_pressed(ord("5"))){
 	current_shot = obj_bulletLightning
 }
 
-//cheat code to give the player tokens
+// Cheat code to give the player tokens
 if(keyboard_check_pressed(ord("T"))){
 	score += 100
 }

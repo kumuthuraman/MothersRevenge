@@ -5,4 +5,4 @@ wave = 1
 waveCoolDown = false
 takeDamage = false
 
-currentEnemies = [] //array to keep track of all the enemies in a wave
+currentEnemies = [] // Array to keep track of all the enemies in a wave
