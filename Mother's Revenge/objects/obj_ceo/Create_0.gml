@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-wave1 = false
-wave2 = false
-wave3 = false
+wave = 1
+waveCoolDown = false
 takeDamage = false
 
-currentEnemies = []
+currentEnemies = [] // Array to keep track of all the enemies in a wave
