@@ -1,6 +1,7 @@
 // initialize global variables
 
 global.checkpoint = 0 // can be 0, 1, 2 --> need to buy, can equip, equipped
+global.first = false
 global.glacierGun = false
 global.greenGrenade = false
 global.lightningRod = false

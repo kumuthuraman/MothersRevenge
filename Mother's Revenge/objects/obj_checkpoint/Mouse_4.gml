@@ -12,5 +12,11 @@ if (score >= 50 and image_index = 0) {
 }
 else if (image_index = 1) {
 	global.checkpoint = 2
+	global.first = true
 	image_index = 2
+}
+else if (image_index = 2) {
+	global.checkpoint = 1
+	global.first = false
+	image_index = 1
 }
