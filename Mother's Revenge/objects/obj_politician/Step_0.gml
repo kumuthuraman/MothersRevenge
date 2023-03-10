@@ -7,7 +7,7 @@ if (instance_exists(obj_player) and obj_player.x > 1345) {
 			{
 				bullet_direction : 180
 			})
-			alarm[1] = 50 * irandom(3)
+			alarm[1] = 50
 			canShoot = false
 		} 
 	
