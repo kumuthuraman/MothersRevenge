@@ -5,9 +5,7 @@ if (instance_exists(obj_player)) {
 		if(canShoot) {
 			canShoot = false
 			instance_create_layer(x,y,"Instances",obj_enemyBullet,
-			{
-				bullet_direction : point_direction(x,y,obj_player.x,obj_player.y)
-			})
+			{bullet_direction : point_direction(x,y,obj_player.x,obj_player.y)})
 		} 
 	
 		if !(alarm[1] > 0) then alarm[1] = 45
