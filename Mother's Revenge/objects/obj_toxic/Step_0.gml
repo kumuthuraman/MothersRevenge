@@ -33,8 +33,8 @@ if (instance_exists(obj_player)) {
 		hspeed = hspeed * -1
 		image_xscale = image_xscale * -1
 	}
+} else {
+	speed = 0
 }
-else {
-	hspeed = 0
-}
+
 
