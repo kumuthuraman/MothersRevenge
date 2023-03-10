@@ -1,9 +1,9 @@
 if (instance_exists(obj_player)) {
 	// Speed up if player is on the same y-elevation
 	if(y == floor(obj_player.y)) {
-		hspeed = (move_speed * 1.5) * sign(hspeed)
+		hspeed = (move_speed * 1.25) * sign(image_xscale)
 	}  else {
-		hspeed = move_speed * sign(hspeed)
+		hspeed = move_speed * sign(image_xscale)
 	}
 
 

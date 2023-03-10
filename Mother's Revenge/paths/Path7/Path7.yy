@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "Path7",
   "kind": 0,
-  "closed": false,
+  "closed": true,
   "precision": 4,
   "points": [
     {"speed":100.0,"x":1632.0,"y":512.0,},
