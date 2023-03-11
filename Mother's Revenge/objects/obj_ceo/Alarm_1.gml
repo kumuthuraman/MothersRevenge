@@ -3,3 +3,4 @@
 takeDamage = false
 wave += 1 
 waveCoolDown = false
+audio_play_sound(snd_ceoSound, 10, true)
