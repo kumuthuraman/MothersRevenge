@@ -70,6 +70,7 @@
     {"id":{"name":"obj_btn_back","path":"objects/obj_btn_back/obj_btn_back.yy",},"order":9,},
     {"id":{"name":"obj_btn_start","path":"objects/obj_btn_start/obj_btn_start.yy",},"order":6,},
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},"order":5,},
+    {"id":{"name":"bkg_music","path":"objects/bkg_music/bkg_music.yy",},"order":27,},
     {"id":{"name":"spr_bulletSolar","path":"sprites/spr_bulletSolar/spr_bulletSolar.yy",},"order":3,},
     {"id":{"name":"obj_bulletGlacier","path":"objects/obj_bulletGlacier/obj_bulletGlacier.yy",},"order":0,},
     {"id":{"name":"obj_glacierGun","path":"objects/obj_glacierGun/obj_glacierGun.yy",},"order":1,},
