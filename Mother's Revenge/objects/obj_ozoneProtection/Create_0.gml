@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description shield lasts 5 seconds
 
 //ozone protection shield
 alarm[0] = 300

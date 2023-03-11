@@ -1,3 +1,5 @@
+// toxic monster logic
+
 if (instance_exists(obj_player)) {
 	if(y == floor(obj_player.y)) {
 		hspeed = 0

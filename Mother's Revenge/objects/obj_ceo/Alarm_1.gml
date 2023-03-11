@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description reset/update variables for attack waves
 
 takeDamage = false
 wave += 1 

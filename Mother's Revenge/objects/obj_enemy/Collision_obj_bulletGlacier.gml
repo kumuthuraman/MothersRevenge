@@ -1,4 +1,4 @@
-/// @description
+/// @description glacier bullet damage
 instance_destroy(other)
 hp -= other.bullet_damage
 

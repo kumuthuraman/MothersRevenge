@@ -1,10 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description draw sprites
 
 
 // Inherit the parent event
 event_inherited();
 
+// decides what sprite to display
 if (global.boughtLives == 0) {
 	image_index = 0
 }

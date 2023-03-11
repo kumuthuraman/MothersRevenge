@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description player glacier bullet damage
 
 if (takeDamage == true) {
 	instance_destroy(other)

@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description game starts, number of lives is initialized
 
 global.lives = 1 + global.boughtLives

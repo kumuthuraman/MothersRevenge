@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description politician is defeated, flag to continue appears
 
 global.politicianDefeat = true
 

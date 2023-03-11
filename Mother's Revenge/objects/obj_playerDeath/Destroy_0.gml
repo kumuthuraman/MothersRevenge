@@ -1,8 +1,9 @@
 /// @description Insert description here
-// You can write your code in this editor
 
+// decrease lilves by 1
 global.lives -= 1
 
+// respawn player if necessary
 if (global.lives > 0) {
 	instance_create_layer(x, y, "Instances", obj_player)
 	obj_game.timer = 15

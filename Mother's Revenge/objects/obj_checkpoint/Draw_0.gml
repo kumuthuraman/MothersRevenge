@@ -1,10 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description draw sprites
 
 
 // Inherit the parent event
 event_inherited();
 
+// buys item and decides what sprite index to show based on player decision
 if (global.checkpoint = 2) {
 	image_index = 2
 }

@@ -1,6 +1,6 @@
 /// @description Cheat Codes
 
-//cheat codes to switch between weapons
+// cheat codes to switch between weapons
 if(keyboard_check_pressed(ord("1"))){
 	global.currentWeapon = 1
 	current_shot = obj_bulletStarter

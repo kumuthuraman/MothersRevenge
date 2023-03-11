@@ -1,10 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description clicking interactions
 
 // Inherit the parent event
 event_inherited();
 
+// buys item and decides what sprite index to show based on player decision
 if (score >= 10 and image_index = 0) {
 	score -= 10
 	audio_play_sound(snd_purchase, 10, false)

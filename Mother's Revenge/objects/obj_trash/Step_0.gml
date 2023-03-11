@@ -1,3 +1,5 @@
+// trash monster logic
+
 if (instance_exists(obj_player)) {
 	// Speed up if player is on the same y-elevation
 	if(y == floor(obj_player.y)) {
@@ -7,9 +9,9 @@ if (instance_exists(obj_player)) {
 	}
 
 
-	//Collision with walls
+	// Collision with walls
 	if(place_meeting(x+hspeed,y,obj_block)){
-		//Keep moving closer to wall until touching it
+		// Keep moving closer to wall until touching it
 		while(!place_meeting(x+sign(hspeed),y,obj_block)){
 			x = x + sign(hspeed)
 		}
@@ -17,7 +19,7 @@ if (instance_exists(obj_player)) {
 		image_xscale = image_xscale*-1
 	}
 
-	//Check to see if at an edge
+	// Check to see if at an edge
 	if(place_meeting(x+hspeed,y+1,obj_blockx)){
 		image_xscale = image_xscale*-1
 		hspeed = hspeed * -1

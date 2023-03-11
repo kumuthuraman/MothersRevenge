@@ -1,7 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description ceo logic
 
-
+// wave 1
 if (instance_exists(obj_player) and obj_player.x > 1345 and obj_player.y < 500 and wave == 1) {
 	sprite_index = spr_ceoAtacks // Change sprite to signify invulnerbility
 	currentEnemies[0] = instance_create_layer(x, y, "instances", obj_smoke, {fly_path: Path5})
@@ -11,6 +10,7 @@ if (instance_exists(obj_player) and obj_player.x > 1345 and obj_player.y < 500 a
 	wave += 1 // Increase wave
 }
 
+// wave 3 (after time for player to attack)
 if (wave == 3) {
 	sprite_index = spr_ceoAtacks
 	currentEnemies[0] = instance_create_layer(x+50, y+16, "instances", obj_trash)
@@ -19,6 +19,7 @@ if (wave == 3) {
 	wave += 1
 }
 
+// wave 5 (after time for player to attack)
 if (wave == 5) {
 	sprite_index = spr_ceoAtacks
 	currentEnemies[0] = instance_create_layer(x + 50, y+16, "instances", obj_toxic)

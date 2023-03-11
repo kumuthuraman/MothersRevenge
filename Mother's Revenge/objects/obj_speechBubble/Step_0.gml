@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description set bullet direction and speed
 
 direction = bullet_direction
 speed = bullet_speed

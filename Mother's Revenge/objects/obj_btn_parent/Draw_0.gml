@@ -1,5 +1,5 @@
 /// @description Code for button --> borrowed from game maker tutorials
-// You can write your code in this editor
+//draws sprites
 
 draw_self(); //draw sprite of button
 
