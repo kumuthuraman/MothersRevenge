@@ -7,6 +7,7 @@ event_inherited();
 
 if (score >= 100 and image_index = 0) {
 	score -= 100
+	audio_play_sound(snd_purchase, 10, false)
 	global.lightningRod = true
 	image_index = 1
 }

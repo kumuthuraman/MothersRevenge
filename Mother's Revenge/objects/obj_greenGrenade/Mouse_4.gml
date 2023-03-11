@@ -7,6 +7,7 @@ event_inherited();
 
 if (score >= 25 and image_index = 0) {
 	score -= 25
+	audio_play_sound(snd_purchase, 10, false)
 	global.greenGrenade = true
 	image_index = 1
 }

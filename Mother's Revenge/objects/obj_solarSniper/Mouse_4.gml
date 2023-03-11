@@ -7,6 +7,7 @@ event_inherited();
 
 if (score >= 50 and image_index = 0) {
 	score -= 50
+	audio_play_sound(snd_purchase, 10, false)
 	global.solarSniper = true
 	image_index = 1
 }

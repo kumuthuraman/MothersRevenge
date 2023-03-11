@@ -7,6 +7,7 @@ event_inherited();
 
 if (score >= 10 and image_index = 0) {
 	score -= 10
+	audio_play_sound(snd_purchase, 10, false)
 	global.glacierGun = true
 	image_index = 1
 }
