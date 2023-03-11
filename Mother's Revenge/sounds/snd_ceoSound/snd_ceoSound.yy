@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_ceoSound",
-  "duration": 0.0,
+  "soundFile": "snd_ceoSound.ogg",
+  "duration": 3.567778,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
