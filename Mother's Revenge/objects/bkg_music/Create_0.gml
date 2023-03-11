@@ -17,3 +17,9 @@ if (room == rm_shop) {
 	audio_stop_all()
 	audio_play_sound(snd_shop, 10, true)
 }
+
+// if the player is in the win/credits room
+if (room == rm_win_credits) {
+	audio_stop_all()
+	audio_play_sound(snd_menu, 10, true)
+}
